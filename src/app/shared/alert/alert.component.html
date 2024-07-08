@@ -1,0 +1,14 @@
+
+<div class="backdrop" (click)="onClose()">
+  <div class="alert">
+    <div class="alert-header">
+      <h2>{{ title }}</h2>
+    </div>
+    <div class="alert-body">
+      <p>{{ message }}</p>
+    </div>
+    <div class="alert-footer">
+      <button (click)="onClose()">Close</button>
+    </div>
+  </div>
+</div>
